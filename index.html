@@ -122,12 +122,24 @@
     <span>Oldal neve</span>
   </div>
 
-  <nav>
-    <button>Galéria</button>
-    <button>Email</button>
-    <button>About</button>
-    <button onclick="toggleDarkMode()">⚙️</button>
-  </nav>
+ <nav>
+  <a href="index.html">Főoldal</a>
+  <a href="gallery.html">Galéria</a>
+  <a href="email.html">Email</a>
+  <a href="about.html">About</a>
+  <a href="#" onclick="toggleDarkMode()">⚙️</a>
+</nav>
+
+  nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+  nav a:hover {
+  text-decoration: underline;
+}
+  
 </header>
 
 <main>
